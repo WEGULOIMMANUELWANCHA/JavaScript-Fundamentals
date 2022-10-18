@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenID = []
         resultDisplay.textContent = ' ' + cardsWon.length
         if(cardsWon.length === cardArray.length/2) {
-            resultDisplay.textContent = 'Congratulations! You have matched all the cards.'
+            statusDisplay.textContent = 'Congratulations! You have matched all the cards.'
         }
     }
 
