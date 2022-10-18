@@ -1,0 +1,21 @@
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-image: url("/Users/toddbuck/Desktop/Github/JavaScript Fundamentals/whack-a-mole/images/fire.png");
+    background-size: cover;
+}
